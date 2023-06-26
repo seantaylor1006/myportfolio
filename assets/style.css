@@ -23,21 +23,31 @@ h1 {
 }
 
 .header-item {
-    width: 400px;
+    width: 800px;
     height: 200px;
     display: block;
     text-align: left;
-    line-height: 20px;
-    background-color: var(--navbar-color);
-    font-size: 35px;
+    line-height: 40px;
+    background-color: var(--accent);
+    font-size: 80px;
+    color: #232323;
 }
 
 #header-text {
+    position: absolute;
+    top: 80px;
+    left: 285px;
+    width: 490px;
+    height: 160px;
+    line-height: 140px;
     margin-left: 30px;
-    background-color: var(--navbar-color);
+    margin-right: 30px;
+    border: solid var(--section-outer);
+    border-width: 20px;
+    background-color: var(--accent);
     display: flex;
     flex-direction: row;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 nav {
