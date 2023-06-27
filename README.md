@@ -13,8 +13,8 @@ The application can be installed by cloning the repo
 
 To test my CSS knowledge and ability to aquire new information and techniques for CSS, to further construct a portfolio page to show potential employers
 
-![screenshot] (screenshot1.png)
-![screenshot] (screenshot2.png)
+![Screenshot1] (screenshot1.jpg)
+![screenshot2] (screenshot2.jpg)
 
 # License
 
