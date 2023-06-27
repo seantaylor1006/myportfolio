@@ -10,6 +10,7 @@
     --section-inner: #7951A8;
 }
 
+
 h1 {
     font-size: 50px;
     background-color: inherit;
@@ -30,6 +31,9 @@ p {
 }
 
 .header-item {
+    position: relative;
+    top: -50px;
+    left: -50px;
     width: 800px;
     height: 200px;
     display: block;
@@ -41,9 +45,9 @@ p {
 }
 
 #header-text {
-    position: absolute;
-    top: 80px;
-    left: 285px;
+    position: relative;
+    top: -180px;
+    left: 230px;
     width: 490px;
     height: 160px;
     line-height: 125px;
@@ -59,18 +63,18 @@ p {
 
 nav {
     position: absolute;
-    top: 100px;
+    top: 240px;
     right: 0;
-    width: 870px;
-    height: 120px;
+    width: 700px;
+    height: 80px;
     color: var(--section-outer);
 }
 
 .nav-item {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 53px;
-    line-height: 120px;
+    font-size: 40px;
+    line-height: 80px;
 }
 
 
@@ -96,7 +100,7 @@ a {
 
 .aside-item {
     background-color: var(--section-outer);
-    width: 600px;
+    width: 400px;
     gap: 20px;
     border-right: 30px solid #232323;
 }
@@ -116,8 +120,10 @@ a {
     box-sizing: border-box;
 }
 
+#features-anchor
+
 .item {
-    margin: 4%;
+    margin: 6%;
     background-image: url(purple\ card.jpg);
     border: 10px solid var(--accent-2);
     border-radius: 20px;
@@ -153,32 +159,28 @@ button:active {
 }
 
 
-.footer {
+#footer {
     background-color: var(--navbar-color);
     position: absolute;
     display: flex;
-    flex-direction: column;
+    flex-flow: row;
     width: 100%;
     padding: 60px;
-    text-align: justify;
+    text-align: center;
     font-size: 80px;
+    border-top: 30px solid #232323;
 }
 
 .footer-item {
     background-color: var(--navbar-color);
     position: relative;
-    left: 5%;
+    text-align: center;
     font-size: 80px;
+    left: 38%;
 }
 
 .footer-font {
     background-color: var(--navbar-color);
     position: relative;
-    top: -46px;
-    left: 500px;
     font-size: 40px;
-}
-
-u {
-    background-color: inherit;
 }
