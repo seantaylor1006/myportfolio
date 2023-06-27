@@ -12,10 +12,12 @@
 
 h1 {
     font-size: 50px;
+    background-color: inherit;
 }
 
 p {
     font-size: large;
+    background-color: inherit;
 }
 
 .header {
@@ -73,7 +75,8 @@ nav {
 
 
 a {
-    color: var(--section-outer);
+    background-color: inherit;
+    color: var(--accent);
     text-decoration: none;
 }
 
@@ -140,8 +143,13 @@ button {
 
 button:hover {
     border-color: var(--accent);
-    transform: scale(1.2);
-    transition: 0.5s;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+button:active {
+    transform: scale(1);
+    transition: .1s;
 }
 
 
@@ -152,5 +160,25 @@ button:hover {
     flex-direction: column;
     width: 100%;
     padding: 60px;
-    text-align: center;
+    text-align: justify;
+    font-size: 80px;
+}
+
+.footer-item {
+    background-color: var(--navbar-color);
+    position: relative;
+    left: 5%;
+    font-size: 80px;
+}
+
+.footer-font {
+    background-color: var(--navbar-color);
+    position: relative;
+    top: -46px;
+    left: 500px;
+    font-size: 40px;
+}
+
+u {
+    background-color: inherit;
 }
